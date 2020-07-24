@@ -38,7 +38,7 @@ import java.io.FileInputStream;
        }
        
        public void property(String uname, String pword) {
-       System.setProperty("webdriver.chrome.driver", "D:\\software\\Study@@\\jar files\\chromedriver_win32\\chromedriver.exe");
+   	    System.setProperty("webdriver.chrome.driver", "D:\\software\\Study@@\\jar files\\chromedriver_win32\\chromedriver_win32\\chromedriver.exe");
       ChromeDriver chromeDriver = new ChromeDriver();
       chromeDriver.get("https://www.facebook.com/");
       WebElement username = chromeDriver.findElement(By.id("email"));
